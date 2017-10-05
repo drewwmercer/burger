@@ -11,7 +11,7 @@
         <div class="col-md-12 ">
             <div class="col-md-4">
                 <div class="leftBurgers text-center">
-                    <h2 class="heading">Fresh New Burgers</h2>
+                    <h2 class="heading headTitle">Fresh New Burgers</h2>
                     <ul>
                         {{#each burgers}} {{#unless this.devoured}}
                         <li>
@@ -30,7 +30,7 @@
                 <div class="input text-center">
 
 
-                    <h2 class="heading" id="add">Add A Burger</h2>
+                    <h2 class="heading headTitle" id="add">Add A Burger</h2>
                     <div class="form-group">
                         <form method="POST" action="burgers/insertOne" class="addOne text-center">
                             <textarea id="textArea" type="text" name="burger_name" rows="2" cols="40"></textarea>
@@ -42,7 +42,7 @@
 
             <div class="col-md-4 text-left">
                 <div class="rightBurgers text-center">
-                    <h2 class="heading">Burgers Eaten</h2>
+                    <h2 class="heading headTitle">Burgers Eaten</h2>
                     <ul>
                         {{#each burgers}} {{#if this.devoured}}
                         <li>
