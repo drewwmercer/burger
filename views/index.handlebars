@@ -10,7 +10,7 @@
 
         <div class="col-md-12 ">
             <div class="col-md-4">
-                <div class="leftBurgers">
+                <div class="leftBurgers text-center">
                     <h2 class="heading">Fresh New Burgers</h2>
                     <ul>
                         {{#each burgers}} {{#unless this.devoured}}
@@ -27,7 +27,7 @@
             </div>
 
             <div class="col-md-4 text-center">
-                <div class="input">
+                <div class="input text-center">
 
 
                     <h2 class="heading" id="add">Add A Burger</h2>
@@ -41,7 +41,7 @@
             </div>
 
             <div class="col-md-4 text-left">
-                <div class="rightBurgers">
+                <div class="rightBurgers text-center">
                     <h2 class="heading">Burgers Eaten</h2>
                     <ul>
                         {{#each burgers}} {{#if this.devoured}}

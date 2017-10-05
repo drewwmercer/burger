@@ -7,7 +7,7 @@ body{
     color: black;
     margin-top: 20px;
     opacity: .75;
-    background-color: #FF851B;
+    background-color: #F7B47E;
     margin-bottom: 20px;
 }
 
@@ -21,6 +21,7 @@ body{
   color: #FF851B;
   display:block;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 li {
