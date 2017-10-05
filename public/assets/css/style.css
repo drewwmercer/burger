@@ -16,7 +16,7 @@ body{
 }
 
 .heading {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   color: #FF851B;
   display:block;
@@ -25,7 +25,7 @@ body{
 }
 
 .headTitle {
-  
+  font-family: 'Permanent Marker', cursive;
 }
 
 li {
