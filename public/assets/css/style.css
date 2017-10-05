@@ -36,6 +36,7 @@ li {
 .burgerType {
   font-size: 25px;
   font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 12px;
 }
 
 .btnDevour {
@@ -46,6 +47,7 @@ li {
     border-radius: 5px;
     margin-bottom: 10px;
     display: inline-block;
+    padding-bottom: 12px;
 }
 
 #btnCreate {
@@ -56,12 +58,13 @@ li {
   padding: 5px;
   border: 1px solid #FF851B;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #btnDelete {
   display: block;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 ul,li {
