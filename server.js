@@ -5,7 +5,7 @@ var exphbs = require('express-handlebars');
 var app = express();
 var router = require('./controllers/burgers_controller.js');
 
-app.use(express.static('public'));
+app.use(express.static(process.cwd() + '/public'));
 
 app.use(
   bodyParser.urlencoded({
