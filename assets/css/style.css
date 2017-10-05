@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: maroon;
+}
+
+.jumbotron {
+    color: black;
+    margin-top: 20px;
+    opacity: .75;
+    background-color: #FF851B;
+    margin-bottom: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 36px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF851B;
+  display:block;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.burgerType {
+  font-size: 18px;
+}
+
+.btnDevour {
+    background: #FF851B;
+    color: black;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#btnCreate {
+  display: block;
+  margin: 0 auto;
+  background: #FF851B;
+  color: black;
+  padding: 5px;
+  border: 1px solid #FF851B;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#btnDelete {
+  display: block;
+  margin: 0 auto;
+}
+
+ul,li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.rightBurgers {
+  float: right;
+}
